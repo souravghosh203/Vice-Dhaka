@@ -1,0 +1,14 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.9",
+  "Category": "Games",
+  "Description": "Native C++ Dhaka open-world rickshaw prototype.",
+  "Modules": [
+    {
+      "Name": "ViceDhaka",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": []
+}

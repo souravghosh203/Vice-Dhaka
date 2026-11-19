@@ -1,0 +1,33 @@
+# Node dependencies and local logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Unreal Engine generated data
+ViceDhakaUE/Binaries/
+ViceDhakaUE/Build/
+ViceDhakaUE/DerivedDataCache/
+ViceDhakaUE/Intermediate/
+ViceDhakaUE/Saved/
+ViceDhakaUE/.vs/
+ViceDhakaUE/*.sln
+ViceDhakaUE/*.suo
+ViceDhakaUE/*.user
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
